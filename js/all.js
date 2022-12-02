@@ -1085,7 +1085,7 @@ function init_map(){
 function init_wow(){
     (function($){    
     
-        var wow = new WOW({
+        var wow = new wow({
             boxClass: 'wow',
             animateClass: 'animated',
             offset: 90,
