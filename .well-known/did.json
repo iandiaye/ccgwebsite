@@ -1,0 +1,48 @@
+{
+    "id": "did:web:century.consulting",
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      {
+        "@base": "did:web:century.consulting"
+      }
+    ],
+    "service": [
+      {
+        "id": "#linkeddomains",
+        "type": "LinkedDomains",
+        "serviceEndpoint": {
+          "origins": [
+            "https://century.consulting/"
+          ]
+        }
+      },
+      {
+        "id": "#hub",
+        "type": "IdentityHub",
+        "serviceEndpoint": {
+          "instances": [
+            "https://beta.hub.msidentity.com/v1.0/b59b138c-fe79-423d-add0-ee5d0203407c"
+          ]
+        }
+      }
+    ],
+    "verificationMethod": [
+      {
+        "id": "#491d53722d5a4fc89380ddddc7bad06avcSigningKey-61dbc",
+        "controller": "did:web:century.consulting",
+        "type": "EcdsaSecp256k1VerificationKey2019",
+        "publicKeyJwk": {
+          "crv": "secp256k1",
+          "kty": "EC",
+          "x": "oPvSU-xhVgC8Js-PhvOE1tNCfO_3QZ2QayWWu5say9U",
+          "y": "e-ZDWOZvzUmJgB5t8dfLmm5yxfH_NyMn50XSGVpZcxI"
+        }
+      }
+    ],
+    "authentication": [
+      "#491d53722d5a4fc89380ddddc7bad06avcSigningKey-61dbc"
+    ],
+    "assertionMethod": [
+      "#491d53722d5a4fc89380ddddc7bad06avcSigningKey-61dbc"
+    ]
+  }
