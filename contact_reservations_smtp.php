@@ -1,14 +1,14 @@
 <?php
 if($_POST)
 {
-    $to_Email       = "ismaila@century.consulting"; // Replace with recipient email address
-	$subject        = 'Message from website '.$_SERVER['SERVER_NAME']; //Subject line for emails
+  //  $to_Email       = "ismaila@century.consulting"; // Replace with recipient email address
+//	$subject        = 'Message from website '.$_SERVER['SERVER_NAME']; //Subject line for emails
     
-    $host           = "smtp.sendgrid.net"; // Your SMTP server. For example, smtp.mail.yahoo.com
-    $username       = "apikey"; //For example, your.email@yahoo.com
-    $password       = "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"; // Your password
-    $SMTPSecure     = "ssl"; // For example, ssl
-    $port           = 587; // For example, 465
+  //  $host           = "smtp.sendgrid.net"; // Your SMTP server. For example, smtp.mail.yahoo.com
+ //   $username       = "apikey"; //For example, your.email@yahoo.com
+   // $password       = "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"; // Your password
+ //   $SMTPSecure     = "ssl"; // For example, ssl
+  //  $port           = 587; // For example, 465
     
     
     //check if its an ajax request, exit if not
