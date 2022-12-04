@@ -1135,13 +1135,14 @@ function split_height_init(){
     })(jQuery);
 }
 
-/* Application Insight */
+/* Application Insight 
 
 import { ApplicationInsights } from '@microsoft/applicationinsights-web'
 
 const appInsights = new ApplicationInsights({ config: {
   connectionString: "InstrumentationKey=772dace4-933e-4938-88a5-4daba25ac27d;IngestionEndpoint=westus-0.in.applicationinsights.azure.com/;LiveEndpoint=westus.livediagnostics.monitor.azure.com/"
   /* ...Other Configuration Options... */
-} });
+/*} });
 appInsights.loadAppInsights();
 appInsights.trackPageView(); // Manually call trackPageView to establish the current user/session/pageview
+*/
